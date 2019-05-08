@@ -1,0 +1,20 @@
+{
+  "name": "redis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js --exec babel-node -e js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "ioredis": "^4.9.0",
+    "nodemon": "^1.19.0"
+  }
+}
